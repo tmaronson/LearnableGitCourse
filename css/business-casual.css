@@ -189,4 +189,9 @@ footer p {
         display: table;
         clear: both;
     }
+
+}
+
+.brand {
+    color: #FF0000;
 }
