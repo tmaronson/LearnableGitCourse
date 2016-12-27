@@ -195,3 +195,7 @@ footer p {
 .brand {
     color: #F9B11C;
 }
+
+#footertext {
+    font-size: 22px;
+}
