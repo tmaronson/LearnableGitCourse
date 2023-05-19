@@ -1,0 +1,36 @@
+
+1. git init (create Git repository)
+2. vim README.md  (create README.md files)
+
+# Git challenge
+
+This is the README for the Git challenge.
+We are going to commit this on the master branch. 
+3. git add README.md (Stage file or add to index)
+4. git commit -m 'First commit task 4'  
+5. git branch feat-a (Create branch feat-a)
+6. git checkout feat-a (git status) (Switch to feat-a branch)
+7. vim README.md (Edit file)
+# Git challenge
+  
+This is the README for the Git challenge.
+We are going to commit this on the master branch.
+This is a new line in README.md for task 7. (add this line for example to edit)
+8. git restore . (git status)  (Restore file after edit)
+9. vim README.md  (Edit last line of file)
+# Git challenge
+  
+This is the README for the Git challenge.
+We are going to commit this on the feat-a branch.
+10. git add README.md  (Stage file again) 
+11. git status (to check branch)
+    git commit -m 'Commit for task 11'
+12. git checkout master (git status) (Switch to master branch)
+	git switch master
+13. git log --branches --graph --oneline --decorate | tee /tmp/log-output.txt
+	git log --graph --oneline --all | tee /tmp/log-output.txt
+	(Show all branches, graph, hash)
+14. (from Git Log Challenge #12 also)
+	git diff feat-a master | tee /tmp/diff-output.txt (Compare branches)
+15. git merge feat-a  (merge branch feat-a to master branch)
+16. git branch -d feat-a  (delete branch feat-a)
