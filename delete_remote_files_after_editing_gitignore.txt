@@ -1,0 +1,6 @@
+
+-- Use commands below to remove files that are in remote repo if recently changed .gitignore file and files you wanted ignored still in remote
+git rm -r --cached . 
+git add .
+git commit -am "Remove ignored files and resubmitting files"
+git push
